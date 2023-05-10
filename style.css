@@ -12,6 +12,8 @@ body {
 	font-size: 16px;
 	color: #333;
 	line-height: 1.4;
+	background-image:url('energie_v2.png');
+	background-size:cover;
 }
 
 /* Styles pour le header */
