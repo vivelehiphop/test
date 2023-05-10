@@ -90,7 +90,7 @@ form label {
 form input[type="text"],
 form input[type="date"] {
 	display: block;
-	width: 100%;
+	width: 150px;
 	padding: 10px;
 	font-size: 1rem;
 	margin-bottom: 20px;
