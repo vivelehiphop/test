@@ -8,7 +8,7 @@
 <body>
 
 	<header>
-		<img src="https://www.sncf.com/themes/contrib/sncf_theme/images/logo-sncf.svg?v=1906159999">
+		<img src="https://www.sncf.com/fronts/static/img/sncf_logo.svg" alt="Logo SNCF">
 		<nav>
 			<ul>
 				<li><a href="#">Billets & réservations</a></li>
@@ -25,17 +25,21 @@
 		<p>Préparez votre voyage en train avec la SNCF</p>
 
 		<form>
-			<label for="depart">Gare de départ</label>
-			<input type="text" id="depart" name="depart" placeholder="Entrez votre gare de départ">
+			<div class="input-row">
+				<label for="depart">Gare de départ</label>
+				<input type="text" id="depart" name="depart" placeholder="Entrez votre gare de départ">
 
-			<label for="arrivee">Gare d'arrivée</label>
-			<input type="text" id="arrivee" name="arrivee" placeholder="Entrez votre gare d'arrivée">
+				<label for="arrivee">Gare d'arrivée</label>
+				<input type="text" id="arrivee" name="arrivee" placeholder="Entrez votre gare d'arrivée">
+			</div>
 
-			<label for="date-depart">Date de départ</label>
-			<input type="date" id="date-depart" name="date-depart">
+			<div class="input-row">
+				<label for="date-depart">Date de départ</label>
+				<input type="date" id="date-depart" name="date-depart">
 
-			<label for="date-retour">Date de retour</label>
-			<input type="date" id="date-retour" name="date-retour">
+				<label for="date-retour">Date de retour</label>
+				<input type="date" id="date-retour" name="date-retour">
+			</div>
 
 			<button type="submit">Rechercher</button>
 		</form>
