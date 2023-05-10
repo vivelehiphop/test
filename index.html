@@ -1,46 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<title>SNCF - Page d'accueil</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 	<header>
-		<img src="https://www.sncf.com/themes/sncf_fr/assets/images/logo-header.svg" alt="SNCF Logo">
+		<img src="https://www.sncf.com/themes/contrib/sncf_theme/images/logo-sncf.svg?v=1906159999">
 		<nav>
 			<ul>
-				<li><a href="#">Billets &amp; réservations</a></li>
-				<li><a href="#">Trains</a></li>
-				<li><a href="#">Destinations</a></li>
-				<li><a href="#">Offres</a></li>
-				<li><a href="#">Aide &amp; Contact</a></li>
+				<li><a href="#">Billets & réservations</a></li>
+				<li><a href="#">Préparer votre voyage</a></li>
+				<li><a href="#">Horaires & info trafic</a></li>
+				<li><a href="#">Gares & services</a></li>
+				<li><a href="#">Aide & contact</a></li>
 			</ul>
 		</nav>
 	</header>
+
 	<main>
-		<h1>Bienvenue sur le site de la SNCF</h1>
-		<p>Recherchez des billets de train, consultez les horaires et réservez vos voyages en quelques clics.</p>
+		<h1>Trouvez le meilleur trajet</h1>
+		<p>Préparez votre voyage en train avec la SNCF</p>
+
 		<form>
-			<label for="origine">Gare de départ</label>
-			<input type="text" id="origine" name="origine" placeholder="Saisissez une gare">
-			<label for="destination">Gare d'arrivée</label>
-			<input type="text" id="destination" name="destination" placeholder="Saisissez une gare">
-			<label for="date">Date de départ</label>
-			<input type="date" id="date" name="date">
+			<label for="depart">Gare de départ</label>
+			<input type="text" id="depart" name="depart" placeholder="Entrez votre gare de départ">
+
+			<label for="arrivee">Gare d'arrivée</label>
+			<input type="text" id="arrivee" name="arrivee" placeholder="Entrez votre gare d'arrivée">
+
+			<label for="date-depart">Date de départ</label>
+			<input type="date" id="date-depart" name="date-depart">
+
+			<label for="date-retour">Date de retour</label>
+			<input type="date" id="date-retour" name="date-retour">
+
 			<button type="submit">Rechercher</button>
 		</form>
 	</main>
+
 	<footer>
 		<nav>
 			<ul>
 				<li><a href="#">Plan du site</a></li>
 				<li><a href="#">Mentions légales</a></li>
-				<li><a href="#">Données personnelles</a></li>
-				<li><a href="#">Accessibilité</a></li>
+				<li><a href="#">Cookies</a></li>
+				<li><a href="#">Accessibilité : non conforme</a></li>
 			</ul>
 		</nav>
-		<p>&copy; SNCF - Tous droits réservés</p>
+		<p>&copy; 2023 SNCF. Tous droits réservés.</p>
 	</footer>
+
 </body>
 </html>
